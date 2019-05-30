@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		832FC909229F696E00C183C6 /* RealFilter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RealFilter; sourceTree = BUILT_PRODUCTS_DIR; };
 		832FC90C229F696E00C183C6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		832FC914229F699100C183C6 /* input.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = input.raw; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				832FC90B229F696E00C183C6 /* RealFilter */,
+				832FC913229F697300C183C6 /* Data */,
 				832FC90A229F696E00C183C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +62,14 @@
 				832FC90C229F696E00C183C6 /* main.c */,
 			);
 			path = RealFilter;
+			sourceTree = "<group>";
+		};
+		832FC913229F697300C183C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				832FC914229F699100C183C6 /* input.raw */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
